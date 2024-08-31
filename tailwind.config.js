@@ -18,6 +18,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage:{
+        'purple-image': "url('./assets/Background.svg')"
+      },
       fontFamily: {
         'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
       },
