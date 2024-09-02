@@ -13,7 +13,7 @@ export function App(){
         <>
     <div className="bg-[url('./assets/Background.svg')] h-full w-full p-2">
         <div>
-            <ul className="flex justify-between text-base  font-[Poppins] text-white">
+            <ul className="flex flex-wrap justify-between text-base  font-[Poppins] text-white">
                 
                 <ul className='flex gap-5 text-wrap font-medium p-1'>
                     <li className=''>Movies</li>
