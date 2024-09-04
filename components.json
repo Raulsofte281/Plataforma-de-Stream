@@ -4,8 +4,8 @@
   "rsc": false,
   "tsx": true,
   "tailwind": {
-    "config": "tailwind.config.js ",
-    "css": "./src/index.css",
+    "config": "tailwind.config.js",
+    "css": "src/index.css",
     "baseColor": "slate",
     "cssVariables": true,
     "prefix": ""
@@ -14,6 +14,4 @@
     "components": "@/components",
     "utils": "@/lib/utils"
   }
-  
 }
-

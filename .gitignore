@@ -23,7 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-bun.lockb
+# Package managers
 package-lock.json
-routeTree.gen.ts
-.vite
+bun.lockb

@@ -1,17 +1,15 @@
-/* assets */
-import Background from '@/assets/Background.svg';
-import bell from '@/assets/bell.svg';
-import search from '@/assets/search.svg';
-import FunArts from '@/assets/FunxArts.jpeg';
-import Heart from '@/assets/Heart.svg';
-/* Componetes */
-import { Button } from '@/components/ui/button'
+import { Button } from "./components/ui/button";
 
+import Background from '@/assets/Background.svg'
+import bell from '@/assets/bell.svg'
+import Heart from '@/assets/Heart.svg'
+import search from '@/assets/search.svg'
+import FunxArts from '@/assets/FunxArts.jpeg'
 
-export function App(){
-    return (
-        <>
-    <div className="bg-[url('./assets/Background.svg')] h-full w-full p-2">
+function App() {
+  return (
+    <>
+      <div className="bg-[url('./assets/Background.svg')] h-full w-full p-2">
         <div>
             <ul className="flex flex-wrap justify-between text-base  font-[Poppins] text-white">
                 
@@ -24,7 +22,7 @@ export function App(){
                     <ul className='flex gap-3 items-center'>
                         <img  className='size-6' src={search}/>
                         <img  src={bell} />
-                        <li className='flex items-center gap-1'><img className='rounded-full size-8 ' src={FunArts}/>Warrior</li>
+                        <li className='flex items-center gap-1'><img className='rounded-full size-8 ' src={FunxArts}/>Warrior</li>
                     </ul>
             </ul>
         </div>
@@ -47,8 +45,10 @@ export function App(){
     </div>
 
     <div className='bg-[#303030] w-full h-full'>
-a
+    a
     </div>
-        </>
-    );
+    </>
+  );
 }
+
+export default App;
