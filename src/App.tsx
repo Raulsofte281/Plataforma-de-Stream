@@ -1,10 +1,12 @@
 import { Button } from "./components/ui/button";
+import { Card } from "./components/ui/card";
 
 import Background from '@/assets/Background.svg'
 import bell from '@/assets/bell.svg'
 import Heart from '@/assets/Heart.svg'
 import search from '@/assets/search.svg'
 import FunxArts from '@/assets/FunxArts.jpeg'
+import kimetsu from '@/assets/kimetsu.svg'
 
 function App() {
   return (
@@ -44,8 +46,9 @@ function App() {
         
     </div>
 
-    <div className='bg-[#303030] w-full h-full'>
-    a
+    <div className='bg-[#303030] w-full h-full font-[Poppins] p-2 pb-20'>
+    <h1 className="text-white font-semibold text-xl">Trending</h1>
+    <Card className="bg-[url('./assets/kimetsu.svg')] bg-cover w-full bg-[url('./assets/kimetsu.svg')] h-full flex justify-end"/>
     </div>
     </>
   );
